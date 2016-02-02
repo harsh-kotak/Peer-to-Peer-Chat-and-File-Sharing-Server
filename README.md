@@ -4,20 +4,21 @@ A chat service in python which enables clients to chat and share files between e
 --------------------
 Author Information
 --------------------
---> Name: Harsh Kotak
+--> Name: Harsh Kotak  
 --> Email ID: Harsh.Kotak@colorado.edu
 
 -----------------------
 Application Description
 -----------------------
 	A peer-to-peer chat and file sharing service is built where multiple clients will be able to log into a central server, and subsequently share files with each other directly. The chat system consists of a central server that manages multiple chat sessions, and users can participate as chat clients. Clients connect to the central server on its universally-known port. Upon connection, the server asks each client if it is a new client or a returning one. In case it is a new client, it is asked to register its username and password with the central server. If it is a returning client, the server authenticates them using the existing username/password combination.
-	Once this initial process is done, clients request for a list of clients that are currently connected to the server. Clients are then given the listening socket of the client they want to connect to, and it then attempts to make a direct connection to the opposite client using the information from the server. The server keeps a track of all the active chat sessions. Through this direct connection, clients share messages and files with each other. After communication is complete, the clients indicate to the server that the session is finished, and the server removes that session from its database. This program was developed as part of the Socket programming assignment for the Data Communications course.
+	Once this initial process is done, clients request for a list of clients that are currently connected to the server. Clients are then given the listening socket of the client they want to connect to, and it then attempts to make a direct connection to the opposite client using the information from the server. The server keeps a track of all the active chat sessions. Through this direct connection, clients share messages and files with each other. After communication is complete, the clients indicate to the server that the session is finished, and the server removes that session from its database.
+	This program was developed as part of the Socket programming assignment for the Data Communications course.
 
 ----------------------------------
 Program Compilation and Execution
 ----------------------------------
-1) Extract the server and client python files from the 103334084.tar.gz file.
-2) Run the server.py file in the terminal.
+1) Extract the server and client python files from the 103334084.tar.gz file.  
+2) Run the server.py file in the terminal.  
 3) Now open a new terminal and run client.py file.
 4) The server will ask if you are a new client or a returning client. Type 'Y' or 'N'.
 5) You will be asked to set a new username and password or type your existing username and password.
