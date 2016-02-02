@@ -1,5 +1,5 @@
 # Peer-to-Peer-Chat-and-File-Sharing-Server
-A chat service in python which enables clients to chat and share files between each other. The client makes a direct connection to the opposite client using the information provided by the server, and the server maintains a log of chat sessions. This program was developed as part of the Socket programming assignment for the Data Communications course.
+A chat service in python which enables clients to chat and share files between each other. The client makes a direct connection to the opposite client using the information provided by the server, and the server maintains a log of chat sessions. This program was developed as part of a Socket programming assignment for the Data Communications course.
 
 --------------------
 Author Information
